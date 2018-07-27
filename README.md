@@ -1,15 +1,24 @@
 # Questions&Solutions
 189 Programming Questions and Solutions
 
-## 1.Arrays and Strings
-| #	|Title	|Task	|Solution	|Input	|Output|
-|-|-|-|-|-|-|
-|1.1|Title||[C#](./1.ArraysAndStrings/Title.cs)|||
-|1.2|Title||[C#](./1.ArraysAndStrings/Title.cs)|||
-|1.3|Title||[C#](./1.ArraysAndStrings/Title.cs)|||
-|1.4|Title||[C#](./1.ArraysAndStrings/Title.cs)|||
-|1.5|Title||[C#](./1.ArraysAndStrings/Title.cs)|||
-|1.6|Title||[C#](./1.ArraysAndStrings/Title.cs)|||
-|1.7|Title||[C#](./1.ArraysAndStrings/Title.cs)|||
-|1.8|Title||[C#](./1.ArraysAndStrings/Title.cs)|||
-|1.9|Title||[C#](./1.ArraysAndStrings/Title.cs)|||
+## 3.Arrays and Strings
+
+![Status](
+https://img.shields.io/badge/status-nor%20ready-red.svg)
+
+3.1 [Three in One](./3.StacksAndQueues/Title.cs) Опишите, как бы вы использовали один одномерный массив для реализации трех стеков. [Test](./Solutions.Tests/TitleTest.cs)
+
+3.2 [Stack Min](./3.StacksAndQueues/Title.cs) Как реализовать стек, в котором кроме стандартных функций push и рор будет поддерживаться функция min, возвращающая минимальный элемент? Все операции - push, рор и min - должны выполняться за время 0(1). [Test](./Solutions.Tests/TitleTest.cs)
+
+![Status](https://img.shields.io/badge/status-ready-green.svg) 
+
+3.3 [Stack of Plates](./3.StacksAndQueues/SetOfStacks.cs) Как известно, слишком высокая стопка тарелок может развалиться. Следовательно, в реальной жизни, когда высота стопки превысила бы некоторое пороговое значение, мы начали бы складывать тарелки в новую стопку. Реализуйте структуру данных SetOfStacks, имитирующую реальную ситуацию. Структура SetOfStack должна состоять из нескольких стеков, новый стек создается, как только предыдущий достигнет порогового значения. Методы
+SetOfStacks . push () и SetOfStacks . рор () должны вести себя так же, как при работе с одним стеком (то есть метод рор() должен возвращать те же значения, которые бы он возвращал при использовании одного большого стека). Реализуйте функцию popAt ( int index ), которая осуществляет операцию рор с заданным внутренним стеком. [Test](./Solutions.Tests/SetOfStacks.cs)
+
+3.4 [Queue via Stacks](./3.StacksAndQueues/QueueViaStacks.cs) Напишите класс MyQueue, который реализует очередь с использованием двух стеков. [Test](./Solutions.Tests/QueueViaStacks.cs)
+
+3.5 [Sort Stack](./3.StacksAndQueues/SortStack.cs) Напишите программу сортировки стека, в результате которой наименьший элемент оказывается на вершине стека. Вы можете использовать дополнительный временный стек, но элементы не должны копироваться в другие
+структуры данных (например, в массив). Стек должен поддерживать следующие операции: push, рор, peek, isEmpty. [Test](./Solutions.Tests/SortStackTest.cs)
+
+3.6 [Animal Shelter](./3.StacksAndQueues/AnimalShelter.cs) В приюте для животных есть только собаки и кошки, а работа осуществляется в порядке очереди. Люди должны каждый раз забирать •самое старое• (по времени пребывания в питомнике) животное, но могут выбрать кошку или собаку (животное в любом случае будет •самым старым•). Нельзя выбрать любое понравившееся животное. Создайте структуру данных, которая обеспечивает функционирование этой системы и реализует операции enqueue,
+dequeueAny, dequeueDog и dequeueCat. Разрешается использование встроенной структуры данных Linked List. [Test](./Solutions.Tests/AnimalShelterTest.cs)
