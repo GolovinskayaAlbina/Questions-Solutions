@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\3.StacksAndQueues\StacksAndQueues.csproj" />
+    <ProjectReference Include="..\4.TreesAndGraphs\TreesAndGraphs.csproj" />
   </ItemGroup>
 
 </Project>
